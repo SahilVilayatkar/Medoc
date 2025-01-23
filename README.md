@@ -22,4 +22,4 @@ Speeds up the application by storing frequently used data temporarily so the dat
 
 CloudWatch (Monitoring):
 Tracks how well your resources (like EC2, RDS, and ElastiCache) are performing.
-Keeps logs of activities, sends alerts if something goes wrong, and shows live performance data in dashboards.# Medoc
+Keeps logs of activities, sends alerts if something goes wrong, and shows live performance data in dashboards.
