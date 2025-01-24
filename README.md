@@ -1,3 +1,5 @@
+Architecture Components and Flow:
+
 CloudFront (CDN):
 Delivers your website's static files (like HTML, CSS, JavaScript) quickly to users worldwide.
 Handles user requests and forwards them to the backend services when needed.
