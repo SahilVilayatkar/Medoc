@@ -1,0 +1,23 @@
+Docker Architecture Flow:
+
+Frontend (S3/CloudFront):
+Static files (images, HTML, JS) → CloudFront → S3 or Dockerized frontend containers (ECS/Kubernetes).
+
+CloudFront:
+Delivers static content (or containerized frontend) to end users.
+
+Application Load Balancer (ALB):
+Routes incoming traffic to backend services (either EC2 instances or Docker containers running on ECS/Kubernetes).
+
+Backend (Dockerized EC2 instances or ECS/Kubernetes):
+The Docker containers host your backend application.
+The application handles user requests, processes data, and interacts with databases or caches.
+
+RDS (Database):
+The backend containers interact with RDS to store and retrieve data as needed.
+
+ElastiCache (Caching):
+Optional: Dockerized Redis/Memcached is used to cache frequently accessed data to reduce database load.
+
+CloudWatch:
+Monitoring the performance of EC2, RDS, ElastiCache, and Docker containers.
