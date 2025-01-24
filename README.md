@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/aec81d45-5539-41e2-babc-f119fee265a6)
+
+
 Architecture Components and Flow:
 
 CloudFront (CDN):
@@ -25,3 +28,6 @@ Speeds up the application by storing frequently used data temporarily so the dat
 CloudWatch (Monitoring):
 Tracks how well your resources (like EC2, RDS, and ElastiCache) are performing.
 Keeps logs of activities, sends alerts if something goes wrong, and shows live performance data in dashboards.
+
+
+
