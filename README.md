@@ -2,6 +2,15 @@
 ![Architecture Flow of AWS drawio](https://github.com/user-attachments/assets/ac1a56cc-07f7-4d20-8410-84fc624bd5a9)
 
 
+** Architecture Components and Flow:
+
+User Access: The user accesses the application via a domain (e.g., medochealth.in).
+CloudFront: CloudFront serves static content from the S3 bucket.
+S3 Bucket: Stores static assets like frontend files (HTML, CSS, JavaScript) and media.
+Application Load Balancer (ALB): Handles dynamic content and forwards requests to the EC2 instances.
+EC2 Instances: Host the backend application logic and process API calls.
+Maria DB: Acts as the database for backend operations.
+
 
 Detail Components and Flow:
 
