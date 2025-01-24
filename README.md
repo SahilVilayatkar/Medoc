@@ -1,7 +1,9 @@
-![image](https://github.com/user-attachments/assets/aec81d45-5539-41e2-babc-f119fee265a6)
+
+![Architecture Flow of AWS drawio](https://github.com/user-attachments/assets/ac1a56cc-07f7-4d20-8410-84fc624bd5a9)
 
 
-Architecture Components and Flow:
+
+Detail Components and Flow:
 
 CloudFront (CDN):
 Delivers your website's static files (like HTML, CSS, JavaScript) quickly to users worldwide.
