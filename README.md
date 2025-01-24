@@ -2,7 +2,7 @@
 ![Architecture Flow of AWS drawio](https://github.com/user-attachments/assets/ac1a56cc-07f7-4d20-8410-84fc624bd5a9)
 
 
-## Architecture Components and Flow:**
+## Architecture Components and Flow:
 
 User Access: The user accesses the application via a domain (e.g., medochealth.in).
 CloudFront: CloudFront serves static content from the S3 bucket.
