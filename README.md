@@ -4,7 +4,7 @@
 
 ## Architecture Components and Flow:
 
-User Access: The user accesses the application via a domain (e.g., medochealth.in).
+User Access: The user accesses the application via a domain (e.g., medochealth.in).<br>  
 CloudFront: CloudFront serves static content from the S3 bucket.
 S3 Bucket: Stores static assets like frontend files (HTML, CSS, JavaScript) and media.
 Application Load Balancer (ALB): Handles dynamic content and forwards requests to the EC2 instances.
